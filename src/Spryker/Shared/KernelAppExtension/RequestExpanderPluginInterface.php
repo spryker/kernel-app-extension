@@ -11,10 +11,5 @@ use Generated\Shared\Transfer\AcpHttpRequestTransfer;
 
 interface RequestExpanderPluginInterface
 {
-    /**
-     * @param \Generated\Shared\Transfer\AcpHttpRequestTransfer $acpHttpRequestTransfer
-     *
-     * @return \Generated\Shared\Transfer\AcpHttpRequestTransfer
-     */
     public function expandRequest(AcpHttpRequestTransfer $acpHttpRequestTransfer): AcpHttpRequestTransfer;
 }
